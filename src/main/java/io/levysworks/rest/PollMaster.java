@@ -1,4 +1,4 @@
-package io.levysworks;
+package io.levysworks.rest;
 
 import jakarta.ws.rs.HeaderParam;
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;

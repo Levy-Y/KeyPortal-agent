@@ -1,5 +1,7 @@
-package io.levysworks;
+package io.levysworks.jobs;
 
+import io.levysworks.PollMaster;
+import io.levysworks.config.AgentConfig;
 import io.quarkus.scheduler.Scheduled;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;

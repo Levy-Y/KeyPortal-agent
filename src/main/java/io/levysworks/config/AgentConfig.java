@@ -1,4 +1,4 @@
-package io.levysworks;
+package io.levysworks.config;
 
 import io.smallrye.config.ConfigMapping;
 import io.smallrye.config.WithName;
