@@ -10,12 +10,4 @@ public interface AgentConfig {
 
     @WithName("poll-key")
     String pollKey();
-
-    SchedulerConfig scheduler();
-
-    @ConfigMapping(prefix = "scheduler")
-    interface SchedulerConfig {
-        @WithName("timer")
-        String timer();
-    }
 }

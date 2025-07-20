@@ -1,20 +1,17 @@
 poll:
   agent-name: east-1
   poll-key: 1234567ABC
-  scheduler:
-    timer: "10s"
-
 quarkus:
   http:
     port: 8090
-  rest-client:
-    poll:
-      url: http://localhost:8080
-  scheduler:
-    run-on-virtual-thread: false
-    enabled: true
   log:
     category:
       "io.levysworks":
         level: DEBUG
     level: INFO
+  rabbitmqclient:
+    username: user
+    password: pass
+    hostname: localhost
+    port: 5672
+    virtual-host: /

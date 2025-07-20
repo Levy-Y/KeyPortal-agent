@@ -7,7 +7,7 @@ build:
 	@./mvnw install
 
 clean:
-	@rm -rf ./node_modules ./target
+	@rm -rf ./target
 
 run:
 	@./mvnw quarkus:dev
