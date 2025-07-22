@@ -1,6 +1,5 @@
 poll:
   agent-name: east-1
-  poll-key: 1234567ABC
 quarkus:
   http:
     port: 8090
@@ -12,6 +11,6 @@ quarkus:
   rabbitmqclient:
     username: user
     password: pass
-    hostname: localhost
+    hostname: 192.168.1.232
     port: 5672
     virtual-host: /

@@ -1,6 +1,4 @@
-.PHONY: build clean run setup
-
-# TODO: Add option to build into native image
+.PHONY: build clean run
 
 # Builds the application into a runnable jar, but does not make a fat jar
 build:
@@ -11,7 +9,3 @@ clean:
 
 run:
 	@./mvnw quarkus:dev
-
-# Used to setup the dev/prod environment
-setup:
-	@sudo docker compose up -d
